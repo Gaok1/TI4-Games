@@ -40,15 +40,28 @@ public class SkillShop : MonoBehaviour
 
         Instance = this;
     }
+
     private void Start()
     {
-        // Carrega os valores salvos nos PlayerPrefs
+        // Se player não foi atribuído no Inspector, encontra automaticamente
+        if (player == null)
+        {
+            player = FindObjectOfType<PlayerSkills>();
+        }
+
+        if (player == null)
+        {
+            Debug.LogError("PlayerSkills não encontrado! Certifique-se de que o script PlayerSkills esteja atribuído corretamente.");
+            return; // Saímos do método para evitar que o código continue sem a referência correta
+        }
+
         int cyanCount = PlayerPrefs.GetInt("CyanCount", 0);
         int greenCount = PlayerPrefs.GetInt("GreenCount", 0);
         int purpleCount = PlayerPrefs.GetInt("PurpleCount", 0);
 
         SetCounts(cyanCount, greenCount, purpleCount);
     }
+
 
 
     public void SetCounts(int cyan, int green, int purple)
@@ -72,7 +85,7 @@ public class SkillShop : MonoBehaviour
         if (player.hasDash)
         {
             Debug.Log("Dash já desbloqueado!");
-            return; // Interrompe a execução, pois a habilidade já está desbloqueada
+            return;
         }
 
         if (cyanCount >= dashCostCyan && greenCount >= dashCostGreen && purpleCount >= dashCostPurple)
@@ -81,11 +94,11 @@ public class SkillShop : MonoBehaviour
             greenCount -= dashCostGreen;
             purpleCount -= dashCostPurple;
 
-            player.hasDash = true; // Desbloqueia a habilidade
+            player.UnlockDash(); // Desbloqueia e salva no PlayerPrefs
             Debug.Log("Dash desbloqueado!");
 
             SaveCounts(); // Salva os valores nos PlayerPrefs
-            UpdateUI(); // Atualiza a UI
+            UpdateUI();
         }
         else
         {

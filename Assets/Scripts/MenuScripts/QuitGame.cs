@@ -20,6 +20,7 @@ public class QuitGame : MonoBehaviour
         PlayerPrefs.DeleteKey("CyanCount");
         PlayerPrefs.DeleteKey("GreenCount");
         PlayerPrefs.DeleteKey("PurpleCount");
+        PlayerPrefs.DeleteKey("HasDash");
         PlayerPrefs.Save(); // Salva as alterações
     }
 }
