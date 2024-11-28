@@ -38773,8 +38773,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefabs:
   - {fileID: 227180430676147513, guid: 1eefca730b6ea7f41b1c221fbdfb0261, type: 3}
-  minEnemies: 1
-  maxEnemies: 5
+  minEnemies: 20
+  maxEnemies: 20
   spawnArea: {fileID: 0}
   roomGrid: {fileID: 0}
 --- !u!1 &7573827985633596938
