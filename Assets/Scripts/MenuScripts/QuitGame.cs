@@ -5,11 +5,22 @@ public class QuitGame : MonoBehaviour
 {
     public void Quit()
     {
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
-        #else
+#else
 
-            Application.Quit();
-        #endif
+        Application.Quit();
+#endif
+    }
+
+    // Função que é chamada quando o aplicativo é fechado
+    private void OnApplicationQuit()
+    {
+        // Remove as chaves específicas para os itens salvos nos PlayerPrefs
+        PlayerPrefs.DeleteKey("CyanCount");
+        PlayerPrefs.DeleteKey("GreenCount");
+        PlayerPrefs.DeleteKey("PurpleCount");
+        PlayerPrefs.DeleteKey("HasDash");
+        PlayerPrefs.Save(); // Salva as alterações
     }
 }

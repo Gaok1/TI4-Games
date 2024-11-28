@@ -610,7 +610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124b2912775e02c4894ac5412469a17a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasDash: 1
+  hasDash: 0
   hasHeart: 0
   hasAttack: 0
 --- !u!1001 &4093254112590542598

@@ -1,59 +1,67 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class HealthController : MonoBehaviour
 {
-    public int maxHealth = 3; // Maximo de vidas
+    public int maxHealth = 3; // Máximo de vidas
     private int currentHealth;
-    SpriteRenderer sr;
+    private SpriteRenderer sr;
 
-    private void Update()
-    {
-        if(currentHealth <= 0)
-        {
-            Destroy(gameObject);
-        }
-    }
+    public GameObject itemPrefab; // Prefab do item a ser dropado
 
     void Start()
     {
-        // Define a vida inicial do jogador
+        // Define a vida inicial do inimigo
         currentHealth = maxHealth;
         sr = GetComponent<SpriteRenderer>();
     }
 
-    // Funcao para reduzir a vida do jogador
+    // Função para reduzir a vida do inimigo
     public void TakeDamage(int damage)
     {
-        StartCoroutine(DamageEffectSequence(sr, Color.red, 0.3f, 0.0f));
         currentHealth -= damage;
-        if (currentHealth < 0)
+
+        if (currentHealth <= 0)
         {
-            currentHealth = 0;
+            Die();
         }
+        else
+        {
+            StartCoroutine(DamageEffectSequence(sr, Color.red, 0.3f, 0.0f));
+        }
+    }
+
+    void Die()
+    {
+        // Dropa o item no local do inimigo
+        if (itemPrefab != null)
+        {
+            Instantiate(itemPrefab, transform.position, Quaternion.identity);
+        }
+
+        // Destroi o inimigo
+        Destroy(gameObject);
     }
 
     IEnumerator DamageEffectSequence(SpriteRenderer sr, Color dmgColor, float duration, float delay)
     {
-        // save origin color
+        // Salva a cor original
         Color originColor = sr.color;
 
-        // tint the sprite with damage color
+        // Tinge o sprite com a cor de dano
         sr.color = dmgColor;
 
-        // you can delay the animation
+        // Você pode atrasar a animação
         yield return new WaitForSeconds(delay);
 
-        // lerp animation with given duration in seconds
+        // Animação de transição de cor com duração definida
         for (float t = 0; t < 1.0f; t += Time.deltaTime / duration)
         {
             sr.color = Color.Lerp(dmgColor, originColor, t);
-
             yield return null;
         }
 
-        // restore origin color
+        // Restaura a cor original
         sr.color = originColor;
     }
 }

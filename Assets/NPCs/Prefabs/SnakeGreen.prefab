@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -2753514786416632209}
   - component: {fileID: 2461509272212193780}
   - component: {fileID: 1585090488045999427}
-  m_Layer: 0
+  m_Layer: 24
   m_Name: SnakeGreen
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -210,3 +210,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 3
+  itemPrefab: {fileID: 8393350701954262314, guid: 76e5202a6a3a8814e89a5dbf2713a7a7,
+    type: 3}

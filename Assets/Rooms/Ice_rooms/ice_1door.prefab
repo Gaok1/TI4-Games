@@ -38755,8 +38755,10 @@ MonoBehaviour:
   unwalkableMask:
     serializedVersion: 2
     m_Bits: 33554432
-  gridWorldSize: {x: 50, y: 50}
   nodeRadius: 0.5
+  gridOffset: {x: 5, y: 0, z: 0}
+  useCustomGridOrigin: 0
+  customGridOrigin: {x: 0, y: 0, z: 0}
 --- !u!114 &8930998295211117607
 MonoBehaviour:
   m_ObjectHideFlags: 0

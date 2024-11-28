@@ -2,58 +2,55 @@ using UnityEngine;
 
 public class ItemCollector : MonoBehaviour
 {
-    // Contadores para os itens
     private int cyanCount = 0;
     private int greenCount = 0;
     private int purpleCount = 0;
 
-    void UpdateShopCounts()
+    private void Start()
     {
-        if (SkillShop.Instance != null)
-        {
-            SkillShop.Instance.SetCounts(cyanCount, greenCount, purpleCount);
-        }
+        // Carrega valores salvos (se houver)
+        cyanCount = PlayerPrefs.GetInt("CyanCount", 0);
+        greenCount = PlayerPrefs.GetInt("GreenCount", 0);
+        purpleCount = PlayerPrefs.GetInt("PurpleCount", 0);
+
+        // Atualiza a UI inicial
+        UIManager.Instance.cyanText.text = cyanCount.ToString();
+        UIManager.Instance.greenText.text = greenCount.ToString();
+        UIManager.Instance.purpleText.text = purpleCount.ToString();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Item"))
         {
-            // Obtém o componente do item coletado
             Item item = other.GetComponent<Item>();
 
             if (item != null)
             {
-                // Incrementa o contador correspondente e atualiza o texto
                 if (item.color == ItemColor.Cyan)
                 {
                     cyanCount++;
-                    UIManager.Instance.cyanText.text = cyanCount.ToString(); // Atualiza apenas o número
-                    UpdateShopCounts();
+                    UIManager.Instance.cyanText.text = cyanCount.ToString();
                 }
                 else if (item.color == ItemColor.Green)
                 {
                     greenCount++;
-                    UIManager.Instance.greenText.text = greenCount.ToString(); // Atualiza apenas o número
-                    UpdateShopCounts();
+                    UIManager.Instance.greenText.text = greenCount.ToString();
                 }
                 else if (item.color == ItemColor.Purple)
                 {
                     purpleCount++;
-                    UIManager.Instance.purpleText.text = purpleCount.ToString(); // Atualiza apenas o número
-                    UpdateShopCounts();
+                    UIManager.Instance.purpleText.text = purpleCount.ToString();
                 }
 
-                Destroy(other.gameObject); // Destroi o item
+                // Salva os valores
+                PlayerPrefs.SetInt("CyanCount", cyanCount);
+                PlayerPrefs.SetInt("GreenCount", greenCount);
+                PlayerPrefs.SetInt("PurpleCount", purpleCount);
+                PlayerPrefs.Save();
+
+                Destroy(other.gameObject);
             }
         }
-    }
-
-    private void Start()
-    {
-        // Garante que os textos comecem com "0"
-        UIManager.Instance.cyanText.text = "0";
-        UIManager.Instance.greenText.text = "0";
-        UIManager.Instance.purpleText.text = "0";
     }
 }

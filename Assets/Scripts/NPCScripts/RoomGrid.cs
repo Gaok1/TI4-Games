@@ -4,15 +4,20 @@ using UnityEngine;
 public class RoomGrid : MonoBehaviour
 {
     public LayerMask unwalkableMask; // Máscara para identificar obstáculos
-    public Vector2 gridWorldSize; // Tamanho da grade no mundo
-    public float nodeRadius; // Raio de cada nó
+    public float nodeRadius = 0.5f; // Raio de cada nó (pode ser ajustado conforme necessário)
 
     Node[,] grid;
 
     Bounds combinedBounds; // Bounds combinados dos colliders
 
     float nodeDiameter;
-    int gridSizeX, gridSizeY;
+    int gridSizeX = 90, gridSizeY = 90;
+    Vector2 gridWorldSize;
+
+    // Variáveis para reposicionar a grade
+    public Vector3 gridOffset = Vector3.zero; // Deslocamento da grade
+    public bool useCustomGridOrigin = false; // Usar uma origem personalizada para a grade
+    public Vector3 customGridOrigin = Vector3.zero; // Origem personalizada da grade
 
     void Awake()
     {
@@ -25,13 +30,21 @@ public class RoomGrid : MonoBehaviour
             {
                 combinedBounds.Encapsulate(colliders[i].bounds);
             }
-            gridWorldSize = new Vector2(combinedBounds.size.x, combinedBounds.size.y);
         }
         else
         {
             Debug.LogError("Nenhum Collider2D encontrado nos filhos da sala. Certifique-se de que os Tilemaps têm Colliders.");
             return;
         }
+
+        // Definimos o tamanho do mundo da grade como os bounds combinados
+        gridWorldSize = new Vector2(combinedBounds.size.x, combinedBounds.size.y);
+
+        // Calcula o diâmetro do nó com base no tamanho do mundo e no tamanho da grade
+        nodeDiameter = gridWorldSize.x / gridSizeX;
+
+        // Ajusta o nodeRadius de acordo com o nodeDiameter
+        nodeRadius = nodeDiameter / 2f;
 
         CreateGrid();
     }
@@ -49,29 +62,29 @@ public class RoomGrid : MonoBehaviour
         }
     }
 
-
     void CreateGrid()
     {
-        nodeDiameter = nodeRadius * 2;
         if (nodeDiameter == 0)
         {
-            Debug.LogError("nodeDiameter é zero. Defina nodeRadius para um valor maior que zero.");
-            return;
-        }
-
-        gridSizeX = Mathf.RoundToInt(gridWorldSize.x / nodeDiameter);
-        gridSizeY = Mathf.RoundToInt(gridWorldSize.y / nodeDiameter);
-
-        if (gridSizeX <= 0 || gridSizeY <= 0)
-        {
-            Debug.LogError("gridSizeX ou gridSizeY é menor ou igual a zero. Verifique gridWorldSize e nodeRadius.");
+            Debug.LogError("nodeDiameter é zero. Verifique o cálculo do nodeDiameter.");
             return;
         }
 
         grid = new Node[gridSizeX, gridSizeY];
 
         // Posição do canto inferior esquerdo da grade
-        Vector3 worldBottomLeft = combinedBounds.min;
+        Vector3 worldBottomLeft;
+
+        if (useCustomGridOrigin)
+        {
+            // Usa a origem personalizada fornecida
+            worldBottomLeft = customGridOrigin;
+        }
+        else
+        {
+            // Usa os bounds combinados e aplica o gridOffset
+            worldBottomLeft = combinedBounds.min + gridOffset;
+        }
 
         for (int x = 0; x < gridSizeX; x++)
         {
@@ -83,7 +96,7 @@ public class RoomGrid : MonoBehaviour
                 Vector3 worldPoint = new Vector3(worldX, worldY, 0);
 
                 // Determinar se este nó é caminhável (não há obstáculos)
-                bool walkable = !Physics2D.OverlapPoint(worldPoint, unwalkableMask);
+                bool walkable = !Physics2D.OverlapCircle(worldPoint, nodeRadius, unwalkableMask);
 
                 // Criar o nó e adicioná-lo à grade
                 grid[x, y] = new Node(walkable, worldPoint, x, y);
@@ -99,26 +112,24 @@ public class RoomGrid : MonoBehaviour
             return null;
         }
 
-        float percentX = (worldPosition.x - combinedBounds.min.x) / gridWorldSize.x;
-        float percentY = (worldPosition.y - combinedBounds.min.y) / gridWorldSize.y;
+        float percentX, percentY;
+
+        if (useCustomGridOrigin)
+        {
+            percentX = (worldPosition.x - customGridOrigin.x) / (nodeDiameter * gridSizeX);
+            percentY = (worldPosition.y - customGridOrigin.y) / (nodeDiameter * gridSizeY);
+        }
+        else
+        {
+            percentX = (worldPosition.x - (combinedBounds.min.x + gridOffset.x)) / (nodeDiameter * gridSizeX);
+            percentY = (worldPosition.y - (combinedBounds.min.y + gridOffset.y)) / (nodeDiameter * gridSizeY);
+        }
 
         percentX = Mathf.Clamp01(percentX);
         percentY = Mathf.Clamp01(percentY);
 
-        int x = Mathf.RoundToInt((gridSizeX - 1) * percentX);
-        int y = Mathf.RoundToInt((gridSizeY - 1) * percentY);
-
-        if (x < 0 || x >= gridSizeX || y < 0 || y >= gridSizeY)
-        {
-            Debug.LogError($"Índices fora dos limites: x={x}, y={y}");
-            return null;
-        }
-
-        if (grid[x, y] == null)
-        {
-            Debug.LogError($"Nó em grid[{x}, {y}] é nulo.");
-            return null;
-        }
+        int x = Mathf.Clamp(Mathf.RoundToInt((gridSizeX - 1) * percentX), 0, gridSizeX - 1);
+        int y = Mathf.Clamp(Mathf.RoundToInt((gridSizeY - 1) * percentY), 0, gridSizeY - 1);
 
         return grid[x, y];
     }
@@ -152,8 +163,6 @@ public class RoomGrid : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        Gizmos.DrawWireCube(combinedBounds.center, new Vector3(gridWorldSize.x, gridWorldSize.y, 1));
-
         if (grid != null)
         {
             foreach (Node n in grid)
@@ -161,6 +170,25 @@ public class RoomGrid : MonoBehaviour
                 Gizmos.color = (n.walkable) ? Color.white : Color.red;
                 Gizmos.DrawCube(n.worldPosition, Vector3.one * (nodeDiameter - 0.1f));
             }
+        }
+        else if (Application.isPlaying && combinedBounds.size != Vector3.zero)
+        {
+            // Desenha um quadrado representando a área da grade
+            Vector3 gridCenter;
+
+            if (useCustomGridOrigin)
+            {
+                gridCenter = customGridOrigin + new Vector3(nodeDiameter * gridSizeX / 2f, nodeDiameter * gridSizeY / 2f, 0);
+            }
+            else
+            {
+                gridCenter = (combinedBounds.min + gridOffset) + new Vector3(nodeDiameter * gridSizeX / 2f, nodeDiameter * gridSizeY / 2f, 0);
+            }
+
+            Vector3 gridSize = new Vector3(nodeDiameter * gridSizeX, nodeDiameter * gridSizeY, 1);
+
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireCube(gridCenter, gridSize);
         }
     }
 }
