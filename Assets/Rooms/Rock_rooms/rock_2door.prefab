@@ -49596,8 +49596,10 @@ MonoBehaviour:
   unwalkableMask:
     serializedVersion: 2
     m_Bits: 33554432
-  gridWorldSize: {x: 40, y: 40}
   nodeRadius: 0.5
+  gridOffset: {x: 0, y: 0, z: 0}
+  useCustomGridOrigin: 0
+  customGridOrigin: {x: 0, y: 0, z: 0}
 --- !u!114 &2709521313168344347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49612,8 +49614,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefabs:
   - {fileID: 227180430676147513, guid: bfe0594eec055354ca43e1fd5baff902, type: 3}
-  minEnemies: 1
-  maxEnemies: 5
+  minEnemies: 20
+  maxEnemies: 20
   spawnArea: {fileID: 0}
   roomGrid: {fileID: 0}
 --- !u!1 &7573827985633596938

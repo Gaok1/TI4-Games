@@ -122,13 +122,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &175407784 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6924438701499229318, guid: a2fcdc7071e1e6a428564ddfff5507e4,
-    type: 3}
-  m_PrefabInstance: {fileID: 721061527}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &376054412
+--- !u!1001 &131409858
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -251,6 +245,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3231f2e2157b92f47a5115013a044627, type: 3}
+--- !u!1 &175407784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6924438701499229318, guid: a2fcdc7071e1e6a428564ddfff5507e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 721061527}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &480421715 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2269500015644505596, guid: d61aaf4137009b94b8e330e23487cb4f,
@@ -781,10 +781,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 807a6578cfd60f741a509775fd230402, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefabs:
-  - {fileID: 227180430676147513, guid: 1eefca730b6ea7f41b1c221fbdfb0261, type: 3}
-  minEnemiesPerRoom: 1
-  maxEnemiesPerRoom: 5
   room1Prefab: {fileID: 5994954086922193401, guid: d5efbf3c54bbe424bbbc2e47e45517e8,
     type: 3}
   room2Prefab: {fileID: 5994954086922193401, guid: 5350322fdf7e2764799eb9fab59acc1d,
@@ -857,7 +853,7 @@ SceneRoots:
   - {fileID: 1512252404}
   - {fileID: 1901945472}
   - {fileID: 2091370273}
-  - {fileID: 376054412}
   - {fileID: 1202117646}
+  - {fileID: 131409858}
   - {fileID: 1864338215}
   - {fileID: 721061527}

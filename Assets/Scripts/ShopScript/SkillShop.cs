@@ -8,9 +8,6 @@ public class SkillShop : MonoBehaviour
     public Text greenText;
     public Text purpleText;
 
-    // Referência ao Player para desbloquear habilidades
-    public PlayerSkills player;
-
     // Custo das habilidades
     public int dashCostCyan = 10;
     public int dashCostGreen = 5;
@@ -42,9 +39,14 @@ public class SkillShop : MonoBehaviour
     }
     private void Start()
     {
-        // Inicializa os textos com os valores iniciais
-        UpdateUI();
+        // Carrega os valores salvos nos PlayerPrefs
+        int cyanCount = PlayerPrefs.GetInt("CyanCount", 0);
+        int greenCount = PlayerPrefs.GetInt("GreenCount", 0);
+        int purpleCount = PlayerPrefs.GetInt("PurpleCount", 0);
+
+        SetCounts(cyanCount, greenCount, purpleCount);
     }
+
 
     public void SetCounts(int cyan, int green, int purple)
     {
@@ -61,10 +63,10 @@ public class SkillShop : MonoBehaviour
         purpleText.text = purpleCount.ToString();
     }
 
-        // Função para comprar Dash
+    // Função para comprar Dash
     public void BuyDash()
     {
-        if (player.hasDash)
+        if (PlayerSkills.Instance.hasDash)  // Usando a instância correta
         {
             Debug.Log("Dash já desbloqueado!");
             return; // Interrompe a execução, pois a habilidade já está desbloqueada
@@ -76,10 +78,11 @@ public class SkillShop : MonoBehaviour
             greenCount -= dashCostGreen;
             purpleCount -= dashCostPurple;
 
-            player.hasDash = true; // Desbloqueia a habilidade
+            PlayerSkills.Instance.hasDash = true; // Desbloqueia a habilidade
             Debug.Log("Dash desbloqueado!");
 
-            UpdateUI();
+            SaveCounts(); // Salva os valores
+            UpdateUI(); // Atualiza a UI
         }
         else
         {
@@ -90,7 +93,7 @@ public class SkillShop : MonoBehaviour
     // Função para comprar Pulo Duplo
     public void BuyHeart()
     {
-        if (player.hasHeart)
+        if (PlayerSkills.Instance.hasHeart)  // Usando a instância correta
         {
             Debug.Log("Pulo Duplo já desbloqueado!");
             return; // Interrompe a execução
@@ -102,10 +105,11 @@ public class SkillShop : MonoBehaviour
             greenCount -= HeartCostGreen;
             purpleCount -= HeartCostPurple;
 
-            player.hasHeart = true; // Desbloqueia a habilidade
+            PlayerSkills.Instance.hasHeart = true; // Desbloqueia a habilidade
             Debug.Log("Pulo Duplo desbloqueado!");
 
-            UpdateUI();
+            SaveCounts(); // Salva os valores
+            UpdateUI(); // Atualiza a UI
         }
         else
         {
@@ -116,7 +120,7 @@ public class SkillShop : MonoBehaviour
     // Função para comprar Escudo
     public void BuyAttack()
     {
-        if (player.hasAttack)
+        if (PlayerSkills.Instance.hasAttack)  // Usando a instância correta
         {
             Debug.Log("Escudo já desbloqueado!");
             return; // Interrompe a execução
@@ -128,14 +132,25 @@ public class SkillShop : MonoBehaviour
             greenCount -= AttackCostGreen;
             purpleCount -= AttackCostPurple;
 
-            player.hasAttack = true; // Desbloqueia a habilidade
+            PlayerSkills.Instance.hasAttack = true; // Desbloqueia a habilidade
             Debug.Log("Escudo desbloqueado!");
 
-            UpdateUI();
+            SaveCounts(); // Salva os valores
+            UpdateUI(); // Atualiza a UI
         }
         else
         {
             Debug.Log("Não há itens suficientes para comprar Escudo.");
         }
     }
+
+    // Função para salvar os contadores nos PlayerPrefs
+    private void SaveCounts()
+    {
+        PlayerPrefs.SetInt("CyanCount", cyanCount);
+        PlayerPrefs.SetInt("GreenCount", greenCount);
+        PlayerPrefs.SetInt("PurpleCount", purpleCount);
+        PlayerPrefs.Save();
+    }
+
 }

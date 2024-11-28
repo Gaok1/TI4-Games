@@ -15,10 +15,13 @@ GameObject:
   - component: {fileID: -2753514786416632209}
   - component: {fileID: 629239671657345872}
   - component: {fileID: -444662933967941781}
+<<<<<<< HEAD
   - component: {fileID: 5985574774244020886}
+=======
+>>>>>>> main
   m_Layer: 24
   m_Name: GhostPurple
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

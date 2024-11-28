@@ -9,8 +9,13 @@ public class EnemyAI : MonoBehaviour
     public RoomGrid roomGrid; // Variável pública para receber o RoomGrid
     public float speed = 5f;
     public float pathUpdateInterval = 0.2f; // Intervalo para atualizar o caminho
-
+    
     private float pathUpdateTimer = 0f;
+
+    // Variáveis para animação
+    private Animator animator;
+    private Vector2 movement;
+    private int direction;
 
     void Start()
     {
@@ -21,6 +26,13 @@ public class EnemyAI : MonoBehaviour
             Debug.LogError("EnemyAI não tem uma referência ao RoomGrid.");
             enabled = false;
             return;
+        }
+
+        // Inicializa o Animator
+        animator = GetComponent<Animator>();
+        if (animator == null)
+        {
+            Debug.LogError("Animator não encontrado no inimigo.");
         }
 
         FindPath();
@@ -40,7 +52,6 @@ public class EnemyAI : MonoBehaviour
 
         MoveAlongPath();
     }
-
 
     void FindPath()
     {
@@ -111,7 +122,6 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-
     void RetracePath(Node startNode, Node endNode)
     {
         path = new List<Node>();
@@ -130,15 +140,50 @@ public class EnemyAI : MonoBehaviour
     void MoveAlongPath()
     {
         if (path == null || currentPathIndex >= path.Count)
+        {
+            // Se não houver caminho, definir IsMoving para false
+            if (animator != null)
+            {
+                animator.SetBool("IsMoving", false);
+            }
             return;
+        }
 
         Vector3 targetPosition = path[currentPathIndex].worldPosition;
+
+        // Calcula o vetor de movimento
+        Vector3 movementVector = (targetPosition - transform.position).normalized;
+
+        // Move o inimigo
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
+
+        // Atualiza a animação
+        UpdateAnimation(movementVector);
 
         if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
         {
             currentPathIndex++;
         }
+    }
+
+    void UpdateAnimation(Vector3 movementVector)
+    {
+        if (animator == null)
+            return;
+
+        // Determina a direção com base no vetor de movimento
+        if (movementVector.x < 0)
+            direction = 3; // Esquerda
+        else if (movementVector.x > 0)
+            direction = 2; // Direita
+        else if (movementVector.y > 0)
+            direction = 1; // Cima
+        else if (movementVector.y < 0)
+            direction = 0; // Baixo
+
+        // Atualiza os parâmetros do Animator
+        animator.SetInteger("Direction", direction);
+        animator.SetBool("IsMoving", movementVector.magnitude > 0);
     }
 
     int GetDistance(Node nodeA, Node nodeB)
@@ -148,5 +193,4 @@ public class EnemyAI : MonoBehaviour
 
         return 10 * (dstX + dstY); // Usando distância Manhattan
     }
-
 }
