@@ -782,7 +782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: DungeonScene_rock
-  timeToWait: 10
+  timeToWait: 15
 --- !u!114 &1704746929
 MonoBehaviour:
   m_ObjectHideFlags: 0
