@@ -137,8 +137,8 @@ MonoBehaviour:
   - {fileID: 5302544666539283659}
   - {fileID: 735165298187773487}
   - {fileID: 9108917024215601262}
-  fullHeart: {fileID: -782926486, guid: 60f7e207df2d6b04083bfda71d4a00bc, type: 3}
-  emptyHeart: {fileID: -1470214394, guid: 0866d592dea2845469c0ec1f4587e311, type: 3}
+  fullHeart: {fileID: 21300000, guid: 0959dc1cd97ae6040a2ff49b7ed32e9b, type: 3}
+  emptyHeart: {fileID: -919043595, guid: 2954c660c5844b54e85ac242c42ec459, type: 3}
 --- !u!1 &4143795455349413407
 GameObject:
   m_ObjectHideFlags: 0

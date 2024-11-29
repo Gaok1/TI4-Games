@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4465758367072746439}
   - component: {fileID: 4077853350414984270}
   - component: {fileID: -4714487645786801943}
+  - component: {fileID: 7795453319184978173}
   m_Layer: 24
   m_Name: Viridia
   m_TagString: Enemy
@@ -119,7 +120,7 @@ Animator:
   m_GameObject: {fileID: 575802820144789285}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cef6cf6cdd3749b4181bc0fff9138b40, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3dcfe6540fe153743b42a60ff3b83c80, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -194,8 +195,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 533989673c2f3b44da7a4bd2596967bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 20
-  itemPrefab: {fileID: 0}
+  maxHealth: 1
+  itemPrefab: {fileID: 8393350701954262314, guid: ed421997f9d32ef458e2518bbac759a4,
+    type: 3}
 --- !u!114 &-4714487645786801943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,3 +213,16 @@ MonoBehaviour:
   roomGrid: {fileID: 0}
   speed: 5
   pathUpdateInterval: 0.2
+--- !u!114 &7795453319184978173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575802820144789285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6e1ed71ed0dd246a1f8c37b37f7a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
