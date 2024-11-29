@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -2753514786416632209}
   - component: {fileID: 2461509272212193780}
   - component: {fileID: 1585090488045999427}
+  - component: {fileID: 5341961381150211656}
   m_Layer: 24
   m_Name: SnakeGreen
   m_TagString: Enemy
@@ -212,3 +213,16 @@ MonoBehaviour:
   maxHealth: 3
   itemPrefab: {fileID: 8393350701954262314, guid: 76e5202a6a3a8814e89a5dbf2713a7a7,
     type: 3}
+--- !u!114 &5341961381150211656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227180430676147513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6e1ed71ed0dd246a1f8c37b37f7a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1

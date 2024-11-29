@@ -1,0 +1,1786 @@
+fileFormatVersion: 2
+guid: d2761a95311682c4dbf49edf13ef9bb0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_0
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 6459
+        width: 281
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66553f890998d914083f3705cc49db4d
+      internalID: -259972830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_1
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 6459
+        width: 281
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4ebff8bf5b34d4f849599e527c9fa4
+      internalID: -824217568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_2
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 6459
+        width: 281
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b288d53bfe7ee5147947fbbd3887dc8a
+      internalID: 722361832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_3
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 6459
+        width: 250
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2581c3247ef696644965e6cad07963fe
+      internalID: 188669908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_4
+      rect:
+        serializedVersion: 2
+        x: 4252
+        y: 6459
+        width: 250
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d050c0ad64ce6045895761960af6e66
+      internalID: -26402871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_5
+      rect:
+        serializedVersion: 2
+        x: 5725
+        y: 6123
+        width: 265
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524e38258fa9720498c85be1a31617d0
+      internalID: 1202184550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_6
+      rect:
+        serializedVersion: 2
+        x: 6186
+        y: 6123
+        width: 284
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e8f62ef3a825048a7c9b30912ba1ad
+      internalID: 817924618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_7
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 6139
+        width: 266
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716e91689507dc04f810624ba0932f4e
+      internalID: -289559669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_8
+      rect:
+        serializedVersion: 2
+        x: 4299
+        y: 6330
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e353a0950150841a9c7635e0c990d4
+      internalID: 1781535962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_9
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 5900
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d264efc06a5ef5a48a46eb1b103e991a
+      internalID: -85692786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_10
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 5787
+        width: 441
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa12dc47ee16b642ac46a173ff0f233
+      internalID: 620624259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_11
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 5787
+        width: 422
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15924f151808764eb30ea57608f71de
+      internalID: -93326026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_12
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 5787
+        width: 441
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79a0963b1b1b3b43957c7577500dd5c
+      internalID: 1870475592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_13
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 5787
+        width: 390
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e773cb5cba059b419df4185ae3fb464
+      internalID: 1852307541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_14
+      rect:
+        serializedVersion: 2
+        x: 4283
+        y: 5787
+        width: 363
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb442eed9ed2d2a488676d8c3c796467
+      internalID: -1351827508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_15
+      rect:
+        serializedVersion: 2
+        x: 5674
+        y: 5580
+        width: 363
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9dbaa352941654fb5375b94af0d59d
+      internalID: -1750706696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_16
+      rect:
+        serializedVersion: 2
+        x: 6202
+        y: 5580
+        width: 362
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b367d5fdd6f644c8acb351532e3026
+      internalID: -1019283666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_17
+      rect:
+        serializedVersion: 2
+        x: 6748
+        y: 5580
+        width: 359
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a1c97bd10c43743ab8b60fd0771ef5
+      internalID: 186831139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_18
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 5068
+        width: 362
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ec2c93397c8d641b59ff8e60d661b3
+      internalID: -241440389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_19
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 5068
+        width: 395
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a600c73dcf9b31d43bb0ca26f2374001
+      internalID: 279202462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_20
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 5068
+        width: 444
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c631768e0600c4aaf15da1735a6cc6
+      internalID: -199574694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_21
+      rect:
+        serializedVersion: 2
+        x: 3467
+        y: 5068
+        width: 426
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70266c54b14302041bdd376e273c43b5
+      internalID: -1778851761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_22
+      rect:
+        serializedVersion: 2
+        x: 4107
+        y: 5068
+        width: 442
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641c31e8e1b67514e974c533531566aa
+      internalID: -364256189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_23
+      rect:
+        serializedVersion: 2
+        x: 4557
+        y: 5178
+        width: 121
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9330b76b388fd8043a5739ac2579af52
+      internalID: -1045085829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_24
+      rect:
+        serializedVersion: 2
+        x: 5725
+        y: 5037
+        width: 281
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba28f624a72111489d913c44d7fd208
+      internalID: 756905945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_25
+      rect:
+        serializedVersion: 2
+        x: 6252
+        y: 5037
+        width: 281
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e539872212d450e4ca6a8fd67125dfa7
+      internalID: 1026942268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_26
+      rect:
+        serializedVersion: 2
+        x: 6795
+        y: 5053
+        width: 281
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acfcf2f810c3e9459b3f2e890d86902
+      internalID: 176665830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_27
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 4315
+        width: 281
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7677c304c4016ee438364d683b904f3b
+      internalID: -1779518117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_28
+      rect:
+        serializedVersion: 2
+        x: 4252
+        y: 4682
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757c2ffee2d28f5438dc2516111e5756
+      internalID: -1099308533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_29
+      rect:
+        serializedVersion: 2
+        x: 5627
+        y: 4490
+        width: 363
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00636659f87374847acc317acbd64df9
+      internalID: -1242444632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_30
+      rect:
+        serializedVersion: 2
+        x: 6170
+        y: 4490
+        width: 363
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24306dc1d24de64419314a8e7fe279cb
+      internalID: -1734717275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_31
+      rect:
+        serializedVersion: 2
+        x: 6698
+        y: 4490
+        width: 363
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaf7497a9121734d8ee2ac38b9e6852
+      internalID: -620224544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_32
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 4315
+        width: 281
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcffd93ecaf336a4da243b2500c34094
+      internalID: -140824030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_33
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 4315
+        width: 282
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9b451d0b4e5374e822a2380cb8f8f8
+      internalID: -17451724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_34
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 4315
+        width: 284
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed77566004470dd4f8a09ad7aa900eda
+      internalID: 2105694439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_35
+      rect:
+        serializedVersion: 2
+        x: 4154
+        y: 4315
+        width: 282
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ac048913b8c344581d4bd5fdbe4b99
+      internalID: 1467319386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_36
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 3389
+        width: 278
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9d8b652d638f84dbe2ba260c1998fd
+      internalID: -871697334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_37
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 3389
+        width: 281
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92827966faf5e9747b0f3518a3e53097
+      internalID: 673089083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_38
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 3389
+        width: 281
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ca48830507884449b7750ab12e4703
+      internalID: -2112455809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_39
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 3389
+        width: 375
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce61e8e4da0b2b4fb3ee0bbd9f4a8d4
+      internalID: -1292426741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_40
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 3389
+        width: 328
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bf207fe9fcd2449b143cf2317396e7
+      internalID: 753584471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_41
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 3389
+        width: 281
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c16ca8fe0a0594ba41d81455ba8d81
+      internalID: -1831240092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_42
+      rect:
+        serializedVersion: 2
+        x: 4315
+        y: 3389
+        width: 281
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bba0314c467a449ab1dae6e20a1480
+      internalID: -301903315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_43
+      rect:
+        serializedVersion: 2
+        x: 5658
+        y: 3338
+        width: 266
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822c1f23e5899f145af6a3ca6aacdcd3
+      internalID: 471084441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_44
+      rect:
+        serializedVersion: 2
+        x: 6123
+        y: 3338
+        width: 281
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc48afa154b80a7429922ef6fd2f26b5
+      internalID: 1897212553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_45
+      rect:
+        serializedVersion: 2
+        x: 6666
+        y: 3354
+        width: 266
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9252d24f905727640a8ad0a76508c41a
+      internalID: -1348085878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_46
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 2874
+        width: 363
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02704c9051a374943ba72e6f5f9bd4e3
+      internalID: 877463279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_47
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2874
+        width: 359
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48f9efa28a46774aa1597c981e360a6
+      internalID: 309740270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_48
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 2874
+        width: 441
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa60b7117cb419749acb6605601d0598
+      internalID: 335706463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_49
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 2874
+        width: 441
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7230fba4e51ce419138891ca8db23b
+      internalID: -268478875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_50
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 2874
+        width: 363
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa010dcc7ae95f04295e1a881bfecf2c
+      internalID: -1625167354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_51
+      rect:
+        serializedVersion: 2
+        x: 3740
+        y: 2874
+        width: 360
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4a575fb2954b945af27f3681dda244
+      internalID: -612329160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_52
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 2874
+        width: 359
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf68f8ba7aa0f94b8782aa286ce27cf
+      internalID: -1828272589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_53
+      rect:
+        serializedVersion: 2
+        x: 5547
+        y: 2795
+        width: 361
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a38e2e0d2771314284d259a5d82f83f
+      internalID: -769316999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_54
+      rect:
+        serializedVersion: 2
+        x: 6076
+        y: 2811
+        width: 360
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c3f30a7e1bea74ba2c24be9a2c6550
+      internalID: -842824841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_55
+      rect:
+        serializedVersion: 2
+        x: 6619
+        y: 2811
+        width: 360
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff14820c5129934c9e00be88f3d6702
+      internalID: 1289545227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_56
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 2315
+        width: 281
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9831320615179744aaca1eeae6fa2d8a
+      internalID: -728192248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_57
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2315
+        width: 281
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae185c99e588034ba91a0bc8b5f3f1e
+      internalID: 2017676889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_58
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 2315
+        width: 281
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d200198b55caa0640b45ec53fc9ad933
+      internalID: 90624355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_59
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 2330
+        width: 296
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561994def5030d040a2abdcf28393730
+      internalID: 3754764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_60
+      rect:
+        serializedVersion: 2
+        x: 3244
+        y: 2315
+        width: 281
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dddd6caf0166384d99be4fbebb87eb1
+      internalID: 838100768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_61
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 2315
+        width: 281
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae863661c07b9f41b55bc1a4b717f2b
+      internalID: -994547535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_62
+      rect:
+        serializedVersion: 2
+        x: 4459
+        y: 2315
+        width: 281
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bc56842a25393478fcfdf87323ca7e
+      internalID: 1747182668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_63
+      rect:
+        serializedVersion: 2
+        x: 5596
+        y: 2299
+        width: 281
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f907f84d8179bec41a53f7e00fafc3b0
+      internalID: -1376334170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_64
+      rect:
+        serializedVersion: 2
+        x: 6123
+        y: 2299
+        width: 281
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b77f343c355a541a60e2accb38d140
+      internalID: 1078587503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_65
+      rect:
+        serializedVersion: 2
+        x: 6666
+        y: 2315
+        width: 281
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e6109b3a6bda94eaef0f622c29ef3b
+      internalID: 1847978075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_66
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1725
+        width: 359
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a02cc295cf6b948baa5c5066626ca5
+      internalID: 457568636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_67
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1725
+        width: 363
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ce3dffe25afed42940761e8d5f01be
+      internalID: 21264753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_68
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1725
+        width: 360
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67348af30daaea48b75b0d01eda0d72
+      internalID: -329049682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_69
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 1725
+        width: 438
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5d3e4e2c6ca4e449b577d564e638d7
+      internalID: -2015596445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_70
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 1725
+        width: 442
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481cf39d8896c3645ae5d5b355bc1b38
+      internalID: -1510443456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_71
+      rect:
+        serializedVersion: 2
+        x: 3803
+        y: 1725
+        width: 363
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8415d7e74db1340b43c63bb0721fae
+      internalID: 1038745042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_72
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 1725
+        width: 360
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124007638d482a14aa9989d2f0eae350
+      internalID: -1363295728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_73
+      rect:
+        serializedVersion: 2
+        x: 5564
+        y: 1772
+        width: 360
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592a0f66c2a4f124a90676dbef734e18
+      internalID: -558630311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_74
+      rect:
+        serializedVersion: 2
+        x: 6107
+        y: 1772
+        width: 363
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f1338796f565a4caf1ba6446dff466
+      internalID: 2024714023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-VERDINHA-tudo_75
+      rect:
+        serializedVersion: 2
+        x: 6635
+        y: 1787
+        width: 363
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6047efba2c82754c82f4e9038f8142c
+      internalID: -1548748886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pixil-layer-VERDINHA-tudo_0: -259972830
+      pixil-layer-VERDINHA-tudo_1: -824217568
+      pixil-layer-VERDINHA-tudo_10: 620624259
+      pixil-layer-VERDINHA-tudo_11: -93326026
+      pixil-layer-VERDINHA-tudo_12: 1870475592
+      pixil-layer-VERDINHA-tudo_13: 1852307541
+      pixil-layer-VERDINHA-tudo_14: -1351827508
+      pixil-layer-VERDINHA-tudo_15: -1750706696
+      pixil-layer-VERDINHA-tudo_16: -1019283666
+      pixil-layer-VERDINHA-tudo_17: 186831139
+      pixil-layer-VERDINHA-tudo_18: -241440389
+      pixil-layer-VERDINHA-tudo_19: 279202462
+      pixil-layer-VERDINHA-tudo_2: 722361832
+      pixil-layer-VERDINHA-tudo_20: -199574694
+      pixil-layer-VERDINHA-tudo_21: -1778851761
+      pixil-layer-VERDINHA-tudo_22: -364256189
+      pixil-layer-VERDINHA-tudo_23: -1045085829
+      pixil-layer-VERDINHA-tudo_24: 756905945
+      pixil-layer-VERDINHA-tudo_25: 1026942268
+      pixil-layer-VERDINHA-tudo_26: 176665830
+      pixil-layer-VERDINHA-tudo_27: -1779518117
+      pixil-layer-VERDINHA-tudo_28: -1099308533
+      pixil-layer-VERDINHA-tudo_29: -1242444632
+      pixil-layer-VERDINHA-tudo_3: 188669908
+      pixil-layer-VERDINHA-tudo_30: -1734717275
+      pixil-layer-VERDINHA-tudo_31: -620224544
+      pixil-layer-VERDINHA-tudo_32: -140824030
+      pixil-layer-VERDINHA-tudo_33: -17451724
+      pixil-layer-VERDINHA-tudo_34: 2105694439
+      pixil-layer-VERDINHA-tudo_35: 1467319386
+      pixil-layer-VERDINHA-tudo_36: -871697334
+      pixil-layer-VERDINHA-tudo_37: 673089083
+      pixil-layer-VERDINHA-tudo_38: -2112455809
+      pixil-layer-VERDINHA-tudo_39: -1292426741
+      pixil-layer-VERDINHA-tudo_4: -26402871
+      pixil-layer-VERDINHA-tudo_40: 753584471
+      pixil-layer-VERDINHA-tudo_41: -1831240092
+      pixil-layer-VERDINHA-tudo_42: -301903315
+      pixil-layer-VERDINHA-tudo_43: 471084441
+      pixil-layer-VERDINHA-tudo_44: 1897212553
+      pixil-layer-VERDINHA-tudo_45: -1348085878
+      pixil-layer-VERDINHA-tudo_46: 877463279
+      pixil-layer-VERDINHA-tudo_47: 309740270
+      pixil-layer-VERDINHA-tudo_48: 335706463
+      pixil-layer-VERDINHA-tudo_49: -268478875
+      pixil-layer-VERDINHA-tudo_5: 1202184550
+      pixil-layer-VERDINHA-tudo_50: -1625167354
+      pixil-layer-VERDINHA-tudo_51: -612329160
+      pixil-layer-VERDINHA-tudo_52: -1828272589
+      pixil-layer-VERDINHA-tudo_53: -769316999
+      pixil-layer-VERDINHA-tudo_54: -842824841
+      pixil-layer-VERDINHA-tudo_55: 1289545227
+      pixil-layer-VERDINHA-tudo_56: -728192248
+      pixil-layer-VERDINHA-tudo_57: 2017676889
+      pixil-layer-VERDINHA-tudo_58: 90624355
+      pixil-layer-VERDINHA-tudo_59: 3754764
+      pixil-layer-VERDINHA-tudo_6: 817924618
+      pixil-layer-VERDINHA-tudo_60: 838100768
+      pixil-layer-VERDINHA-tudo_61: -994547535
+      pixil-layer-VERDINHA-tudo_62: 1747182668
+      pixil-layer-VERDINHA-tudo_63: -1376334170
+      pixil-layer-VERDINHA-tudo_64: 1078587503
+      pixil-layer-VERDINHA-tudo_65: 1847978075
+      pixil-layer-VERDINHA-tudo_66: 457568636
+      pixil-layer-VERDINHA-tudo_67: 21264753
+      pixil-layer-VERDINHA-tudo_68: -329049682
+      pixil-layer-VERDINHA-tudo_69: -2015596445
+      pixil-layer-VERDINHA-tudo_7: -289559669
+      pixil-layer-VERDINHA-tudo_70: -1510443456
+      pixil-layer-VERDINHA-tudo_71: 1038745042
+      pixil-layer-VERDINHA-tudo_72: -1363295728
+      pixil-layer-VERDINHA-tudo_73: -558630311
+      pixil-layer-VERDINHA-tudo_74: 2024714023
+      pixil-layer-VERDINHA-tudo_75: -1548748886
+      pixil-layer-VERDINHA-tudo_8: 1781535962
+      pixil-layer-VERDINHA-tudo_9: -85692786
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
