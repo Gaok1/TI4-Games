@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1a95cb2d8658a843ab0a7bd068e78f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: LobbyScene
+  sceneName: Transition1
 --- !u!114 &468968969
 MonoBehaviour:
   m_ObjectHideFlags: 0

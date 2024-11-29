@@ -711,7 +711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff14dd935f650554291e5789dcd8d237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: DungeonScene_rock
+  sceneName: Transition3
 --- !u!1 &1908153220649856328
 GameObject:
   m_ObjectHideFlags: 0

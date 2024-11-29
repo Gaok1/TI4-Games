@@ -144,4 +144,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPrefsKey: ItemCollected
-  sceneToLoad: CreditsScene
+  sceneToLoad: Transition5
