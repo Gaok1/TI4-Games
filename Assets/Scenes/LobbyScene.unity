@@ -2155,10 +2155,68 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 368456040870269772, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 949608050357218874, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_text
+      value: "Seja bem vindo a nossa loja de upgrades .... ele gosta muito de p\xE3o
+        de queijo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282632709106730188, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3139702776904167808, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4271415961467768668, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_text
+      value: "Um K-regular nada mais eh do que um grafo com mesmo n\xFAmero de graus
+        em todos .."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4970978192719073782, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578280061607746458, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5957855732407222562, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5994954086922193401, guid: 4385a1ce4d5897540bd88b57977bf084,
         type: 3}
       propertyPath: m_Name
       value: Lobby
+      objectReference: {fileID: 0}
+    - target: {fileID: 6064412946672234282, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_text
+      value: "\xC9 tentador permanecer nesse momento, enquanto todas as possibilidades
+        ainda\_existem..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812646629528860746, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257005796377178256, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8540431320918457446, guid: 4385a1ce4d5897540bd88b57977bf084,
         type: 3}
@@ -2429,6 +2487,28 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Tiles.Array.data[13].second.m_TileSpriteIndex
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8837870798500318694, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_text
+      value: "Podemos n\xE3o ter muito em comum. Voc\xEA e eu.\nAinda assim, esse
+        encontro parece especial. Espero que voc\xEA n\xE3o se importe se eu pensar
+        em voc\xEA\_como\_um\_amigo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8837870798500318694, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8837870798500318694, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8837870798500318694, guid: 4385a1ce4d5897540bd88b57977bf084,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8961522978596471269, guid: 4385a1ce4d5897540bd88b57977bf084,
         type: 3}
@@ -5726,7 +5806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff14dd935f650554291e5789dcd8d237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: DungeonScene_grass
+  sceneName: Transition6
 --- !u!61 &1966314903
 BoxCollider2D:
   m_ObjectHideFlags: 0

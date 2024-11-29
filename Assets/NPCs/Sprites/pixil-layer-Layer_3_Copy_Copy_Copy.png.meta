@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: c1cbc56cd51e57b46a4f3c1fdff1fbb0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 756
+        width: 173
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebdc5d50b6e5434d8128e89ddc65676
+      internalID: -1546706483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 756
+        width: 161
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222bb6cae1fda754798fedd7af58c6ed
+      internalID: -316268387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 756
+        width: 174
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e47fb97d0a8f4f48bb9dc33ebe8169b
+      internalID: 1891832390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_3
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 750
+        width: 161
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886e6534c5360a847af0b828c6876611
+      internalID: 801394763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 538
+        width: 154
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25171d22e5effe4eb692865735c3d81
+      internalID: -1648071904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 538
+        width: 154
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd92d88ff75f89749a5b613e29ead0b5
+      internalID: 1061695593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 538
+        width: 154
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417eccbde5b8e2d48acca8bd464b8935
+      internalID: 927324566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_7
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 538
+        width: 155
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a563e1b05046ee49a24cd588dfd64c0
+      internalID: 927353371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 326
+        width: 155
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a50138ac42f4045955494622bd303f
+      internalID: 2083623787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 326
+        width: 154
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b671c9eaefec6064796b0ac372a8a40a
+      internalID: 399138149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_10
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 326
+        width: 154
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcc74433b8f6a648a800d2665b99e6b
+      internalID: -1498442895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_11
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 326
+        width: 154
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d3e6da5335f6046920d648e1b87835
+      internalID: -593809599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 108
+        width: 174
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72afee0e0961084fbc5d3cbd8062d12
+      internalID: 1268360023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 102
+        width: 187
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7044a27312eac254db6655008c153398
+      internalID: 52746635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_14
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 96
+        width: 174
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72b32b65cd62964382b6a06671b59e3
+      internalID: 187301643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Layer_3_Copy_Copy_Copy_15
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 96
+        width: 186
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d310b053c70b6478e3bc65fd7bfc6a
+      internalID: -1750206561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pixil-layer-Layer_3_Copy_Copy_Copy_0: -1546706483
+      pixil-layer-Layer_3_Copy_Copy_Copy_1: -316268387
+      pixil-layer-Layer_3_Copy_Copy_Copy_10: -1498442895
+      pixil-layer-Layer_3_Copy_Copy_Copy_11: -593809599
+      pixil-layer-Layer_3_Copy_Copy_Copy_12: 1268360023
+      pixil-layer-Layer_3_Copy_Copy_Copy_13: 52746635
+      pixil-layer-Layer_3_Copy_Copy_Copy_14: 187301643
+      pixil-layer-Layer_3_Copy_Copy_Copy_15: -1750206561
+      pixil-layer-Layer_3_Copy_Copy_Copy_2: 1891832390
+      pixil-layer-Layer_3_Copy_Copy_Copy_3: 801394763
+      pixil-layer-Layer_3_Copy_Copy_Copy_4: -1648071904
+      pixil-layer-Layer_3_Copy_Copy_Copy_5: 1061695593
+      pixil-layer-Layer_3_Copy_Copy_Copy_6: 927324566
+      pixil-layer-Layer_3_Copy_Copy_Copy_7: 927353371
+      pixil-layer-Layer_3_Copy_Copy_Copy_8: 2083623787
+      pixil-layer-Layer_3_Copy_Copy_Copy_9: 399138149
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
