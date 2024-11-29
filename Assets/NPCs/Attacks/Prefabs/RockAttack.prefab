@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 269340908058258330}
   - component: {fileID: 7874650433890877549}
   - component: {fileID: 9010162866879010532}
+  - component: {fileID: 8382714734775411028}
   m_Layer: 0
   m_Name: RockAttack
   m_TagString: Untagged
@@ -201,3 +202,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8382714734775411028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917831135254600552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6e1ed71ed0dd246a1f8c37b37f7a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
