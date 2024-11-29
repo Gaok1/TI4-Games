@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: e7d8952d6484a2040b373d300f011fb9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_0
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 2791
+        width: 382
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c57e1858cc48546bca2f6e5bfd9741
+      internalID: -1014755777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_1
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 2791
+        width: 382
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04be8b31315519a489be67ae94090718
+      internalID: -478271318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_2
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 2791
+        width: 363
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1fd7d7ff2e67944b506cc62edc6e40
+      internalID: -1316499740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_3
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 2791
+        width: 382
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2812b2891b98c6e4381d6e755749beaf
+      internalID: -474919863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_4
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 2791
+        width: 465
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f83e1867ab5c694aa8858ed2ad2a8f9
+      internalID: 908015302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_5
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 2791
+        width: 382
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea3b1c24494ba6448c21ccf86c643da
+      internalID: -1471355961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_6
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1944
+        width: 313
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09715420367b38741acb364ce6d6210b
+      internalID: -1829489840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_7
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1944
+        width: 313
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2a78e830c971449815025a252e4784
+      internalID: -1190669273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_8
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1944
+        width: 313
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a1c233785f3f94081c58c8d1888827
+      internalID: -1815072129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_9
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 1944
+        width: 313
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd843c661fd36a74bace7bfa52ef3c5c
+      internalID: 809896066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_10
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1944
+        width: 311
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defb725f32a01164ab95180f02d4d1ee
+      internalID: -578138600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_11
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 1944
+        width: 311
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edccecabc9593f45a1e3f2f10e3ae4e
+      internalID: -1730337850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_12
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1069
+        width: 311
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea480c24b67ba204896bedeed3206223
+      internalID: 1557584688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_13
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1069
+        width: 311
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8106c4a661caa4e857c2564620f8bb
+      internalID: 361102115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_14
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1069
+        width: 312
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ac6affb0e135d49b2bc02a2ecc2968
+      internalID: 1530966800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_15
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1069
+        width: 313
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26c5a626db92104da188706586ffaab
+      internalID: 264730118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_16
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 1069
+        width: 311
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b50703966103d24c9c896d97a151b40
+      internalID: -1572419641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_17
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 1069
+        width: 311
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a8f74792e689e4d825783a141b6a16
+      internalID: -190501400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 285
+        width: 382
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be93be6b67e9f694094742af05bfb0c8
+      internalID: 587188097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_19
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 285
+        width: 382
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ea7c1a63aaa6a49bdd7e481f3bf3b5
+      internalID: 2046811797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_20
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 285
+        width: 382
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624eab21a6e184c49b689e76122e19a5
+      internalID: 1043383304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_21
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 285
+        width: 382
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77629e519526c59439fd9b2541acf1b6
+      internalID: 1259785329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_22
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 271
+        width: 382
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7787ba487562ca04880a243ebdbf568d
+      internalID: -1792430449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-Boss-ataque-FINAL_23
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 278
+        width: 383
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff43d8901f7bf44d92139766e090210
+      internalID: 20982696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pixil-layer-Boss-ataque-FINAL_0: -1014755777
+      pixil-layer-Boss-ataque-FINAL_1: -478271318
+      pixil-layer-Boss-ataque-FINAL_10: -578138600
+      pixil-layer-Boss-ataque-FINAL_11: -1730337850
+      pixil-layer-Boss-ataque-FINAL_12: 1557584688
+      pixil-layer-Boss-ataque-FINAL_13: 361102115
+      pixil-layer-Boss-ataque-FINAL_14: 1530966800
+      pixil-layer-Boss-ataque-FINAL_15: 264730118
+      pixil-layer-Boss-ataque-FINAL_16: -1572419641
+      pixil-layer-Boss-ataque-FINAL_17: -190501400
+      pixil-layer-Boss-ataque-FINAL_18: 587188097
+      pixil-layer-Boss-ataque-FINAL_19: 2046811797
+      pixil-layer-Boss-ataque-FINAL_2: -1316499740
+      pixil-layer-Boss-ataque-FINAL_20: 1043383304
+      pixil-layer-Boss-ataque-FINAL_21: 1259785329
+      pixil-layer-Boss-ataque-FINAL_22: -1792430449
+      pixil-layer-Boss-ataque-FINAL_23: 20982696
+      pixil-layer-Boss-ataque-FINAL_3: -474919863
+      pixil-layer-Boss-ataque-FINAL_4: 908015302
+      pixil-layer-Boss-ataque-FINAL_5: -1471355961
+      pixil-layer-Boss-ataque-FINAL_6: -1829489840
+      pixil-layer-Boss-ataque-FINAL_7: -1190669273
+      pixil-layer-Boss-ataque-FINAL_8: -1815072129
+      pixil-layer-Boss-ataque-FINAL_9: 809896066
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

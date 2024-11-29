@@ -1,0 +1,1676 @@
+fileFormatVersion: 2
+guid: 7baa624796991e248ae0a46013af5ffb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_0
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 6519
+        width: 507
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17efa40d8c2b344093aef7038b68ea7
+      internalID: 1854779738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_1
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 6504
+        width: 492
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a06c4050789d949a6737d1d18ff690
+      internalID: 1920637240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_2
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 6489
+        width: 507
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb95b1c4d4ce3f45b50577cbacfcf8a
+      internalID: -26483964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_3
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 6474
+        width: 522
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58712240f0bcc8549ae1f4b7146de26b
+      internalID: -1946048238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_4
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 6474
+        width: 537
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8b4d10c9af6624e815c2b8b6033963
+      internalID: -325410925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_5
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 6504
+        width: 522
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f472b920f03f6c42a99b22a46cef176
+      internalID: 1362277278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_6
+      rect:
+        serializedVersion: 2
+        x: 4809
+        y: 6475
+        width: 432
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcbfa04f14a370429056d2e796e1961
+      internalID: 1144872400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_7
+      rect:
+        serializedVersion: 2
+        x: 5604
+        y: 6475
+        width: 432
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b984aea597cdf49804f6e09e7088e6
+      internalID: -143919447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_8
+      rect:
+        serializedVersion: 2
+        x: 6189
+        y: 6475
+        width: 432
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2bfc09e106a084c8b7c35eebbccd99
+      internalID: -61434482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_9
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 5605
+        width: 432
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bb0a3adf0e991448d6ea6afbb74b4f
+      internalID: 1878138001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_10
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 5635
+        width: 522
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e5dfe37cd079343b96bf70530e33b6
+      internalID: 1059050445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_11
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 5605
+        width: 537
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6078b08427d6935408e82ed8b8da22c1
+      internalID: -1850627945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_12
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 5605
+        width: 522
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f13ce1df06ebe94fa8fd93e4d0b09f3
+      internalID: 26299617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_13
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 5620
+        width: 507
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c7a565e47e622429140c67107c79f8
+      internalID: -1102285755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_14
+      rect:
+        serializedVersion: 2
+        x: 4104
+        y: 5635
+        width: 492
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06240e2f45f1e3542bc8b526f76ac6b6
+      internalID: 1865860833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_15
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 5649
+        width: 507
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c392b7af44cc80f4882a377632d7e524
+      internalID: -1245707901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_16
+      rect:
+        serializedVersion: 2
+        x: 5574
+        y: 5635
+        width: 447
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc79b988bff3d545af151090bf4f432
+      internalID: 1462121432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_17
+      rect:
+        serializedVersion: 2
+        x: 6174
+        y: 5635
+        width: 447
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813b18acf53dc874b81f9433ad6e3bdc
+      internalID: 229476266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_18
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 4795
+        width: 432
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb24e7c84b6a7be4e879c15a50a8b1ab
+      internalID: -799580588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_19
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 4795
+        width: 447
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68259d156dd422f458ea385625bf7dbe
+      internalID: 115514187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_20
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 4810
+        width: 432
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ec13689b44637469bce0cf2a91d42f
+      internalID: -819140105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_21
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 4810
+        width: 447
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d477a8f7847e16741a2cd6a4661531fb
+      internalID: 842147450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_22
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 4795
+        width: 477
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c357589013d530e409f4d07c7bc27e73
+      internalID: -20483262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_23
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 4810
+        width: 327
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cd20448c56e2c4b892e7ae2350aa43
+      internalID: -190967252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_24
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 4825
+        width: 400
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ac5172368ecea409e1b132bf02a101
+      internalID: -445450804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_25
+      rect:
+        serializedVersion: 2
+        x: 4810
+        y: 4750
+        width: 491
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c18c5f8c7d84fc48b8614c4f8465af4
+      internalID: 201294690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_26
+      rect:
+        serializedVersion: 2
+        x: 5469
+        y: 4720
+        width: 507
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3a44b7c3c43344cb2ed0517bd93061
+      internalID: 160234603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_27
+      rect:
+        serializedVersion: 2
+        x: 6071
+        y: 4961
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf3c48be3bc50f498d3df3763239b51
+      internalID: 1503208594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_28
+      rect:
+        serializedVersion: 2
+        x: 6159
+        y: 4734
+        width: 522
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fb38df844243747b068bc5b1bd4ea1
+      internalID: -1744028670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_29
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 3925
+        width: 477
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d685bb3f4d39be45bd8264306e37c0e
+      internalID: -1821558744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_30
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 3955
+        width: 447
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf55cae85ddf01e4c9db22b8018baf6d
+      internalID: 1183002486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_31
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 3955
+        width: 432
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3412bd409ffd8e43af4465a72517589
+      internalID: 1389798494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_32
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 3940
+        width: 447
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836d4e174f084874898619b7edda6f92
+      internalID: -360426614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_33
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 3925
+        width: 432
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a0be66919d31a4f8f2b6c4d3af043c
+      internalID: 113226642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_34
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 3879
+        width: 522
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8defc545039988a46b281e3142edb375
+      internalID: 1343066146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_35
+      rect:
+        serializedVersion: 2
+        x: 4451
+        y: 4106
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895040ed2063e1d46a42dc0345561ae4
+      internalID: -1463794800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_36
+      rect:
+        serializedVersion: 2
+        x: 4569
+        y: 3865
+        width: 507
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410eb4f9a744c644a99f1e59aea203a5
+      internalID: -259870938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_37
+      rect:
+        serializedVersion: 2
+        x: 5244
+        y: 3895
+        width: 491
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68714ea951bc3404eaf72cf4d01f105d
+      internalID: -1621205008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_38
+      rect:
+        serializedVersion: 2
+        x: 5844
+        y: 3970
+        width: 400
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1487e4965e11f27439945cded56bd4a9
+      internalID: -1787424766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_39
+      rect:
+        serializedVersion: 2
+        x: 6384
+        y: 3955
+        width: 327
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68c4f205fe115c44a05da57ee2c549d
+      internalID: -85019428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_40
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 3025
+        width: 296
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8471d2d0252fbc54e844e5597fbe50ad
+      internalID: -1375122437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_41
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 3025
+        width: 311
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f3345dac62f164da3d3fc094e2b96e
+      internalID: -1365247078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_42
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 3010
+        width: 311
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43b331108420a5469fd2b0333bc16f2
+      internalID: -205396274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_43
+      rect:
+        serializedVersion: 2
+        x: 2470
+        y: 3010
+        width: 311
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ba3d1ccf2183e458aa46721fb01042
+      internalID: -69861826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_44
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 3025
+        width: 311
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387cb74ee1e3f7f42896b2b650254932
+      internalID: 1656232254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_45
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 3025
+        width: 311
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c361b65e12e21a946a27df297aa04ca7
+      internalID: 1557449348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_46
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 3040
+        width: 282
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcf4a6a59440f24f9aaada6e8d1799e
+      internalID: -600894116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_47
+      rect:
+        serializedVersion: 2
+        x: 4674
+        y: 3025
+        width: 282
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3473e690be9acf344ad1fc9a0b5cadc7
+      internalID: -1516791960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_48
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 3040
+        width: 282
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558e3cc923c324f4f924532c390e4c07
+      internalID: 808902699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_49
+      rect:
+        serializedVersion: 2
+        x: 5574
+        y: 3040
+        width: 282
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147e38d7607e6ca47888b6dac845fc3c
+      internalID: -1955539676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_50
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 3025
+        width: 222
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6b57d5314ceae4d87c8e1ea5bf17ea
+      internalID: -1107341781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_51
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1719
+        width: 507
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6664c4683c51a8749aee0cf3e07e55b6
+      internalID: -1995455314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_52
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1704
+        width: 492
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be80ae448f27f20479a8136236170d34
+      internalID: -607273745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_53
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1675
+        width: 657
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6667f47adc154489a27bc367726a37
+      internalID: -777747813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_54
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1675
+        width: 657
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53389cac9449a0742a7f02b0a988be2a
+      internalID: -1649816344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_55
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 1674
+        width: 537
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d781042cb03337f4393111e4ad485f13
+      internalID: 149903551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_56
+      rect:
+        serializedVersion: 2
+        x: 3984
+        y: 1689
+        width: 522
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e603bae7a616c32408e0d2c3c5105e35
+      internalID: 1209976192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_57
+      rect:
+        serializedVersion: 2
+        x: 5319
+        y: 1630
+        width: 282
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1074754c851ae2f4597014b3f6d98d44
+      internalID: -434839909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_58
+      rect:
+        serializedVersion: 2
+        x: 5859
+        y: 1615
+        width: 357
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945a8a19a8f459748bfc2652dc871ff5
+      internalID: 1149474114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_59
+      rect:
+        serializedVersion: 2
+        x: 6369
+        y: 1645
+        width: 402
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4f144d4928b2047b4e2a108d51fa9e
+      internalID: -731873852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_60
+      rect:
+        serializedVersion: 2
+        x: 6969
+        y: 1645
+        width: 282
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb395ee59e983942a9f22553cdb26ba
+      internalID: 569812579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_61
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 820
+        width: 522
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d7dcab3006f5f4d8a1212890d4e752
+      internalID: 1518720107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_62
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 790
+        width: 537
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a67a8ccfe9c5b49b59ccfdc3208ee5
+      internalID: -1773167819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_63
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 790
+        width: 642
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8923aaccda6044da48b6162eb5c320
+      internalID: -1081130724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_64
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 790
+        width: 687
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1bc4205aeb4c041bd23a7c6bd9ca1a
+      internalID: -485953382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_65
+      rect:
+        serializedVersion: 2
+        x: 3474
+        y: 805
+        width: 492
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4feb211a201c0946b62d1be385c5395
+      internalID: 305738820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_66
+      rect:
+        serializedVersion: 2
+        x: 4269
+        y: 834
+        width: 507
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cc938523bab7e45962c039b5aae8fb
+      internalID: 1852470667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_67
+      rect:
+        serializedVersion: 2
+        x: 5365
+        y: 760
+        width: 311
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454e88ccdd8f64c4191024ab1f603e5c
+      internalID: 1107518517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_68
+      rect:
+        serializedVersion: 2
+        x: 5889
+        y: 745
+        width: 342
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a5ec050e2cc1c4ca9020618211d293
+      internalID: -270265478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_69
+      rect:
+        serializedVersion: 2
+        x: 6414
+        y: 745
+        width: 372
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab448b7ce571634d8cd36067a5e1f66
+      internalID: 1799294025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-BOSS1-ATAQUEMOV_70
+      rect:
+        serializedVersion: 2
+        x: 6970
+        y: 760
+        width: 311
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d2e6c957d2d804bab0126d2021c0d2
+      internalID: -194973338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pixil-layer-BOSS1-ATAQUEMOV_0: 1854779738
+      pixil-layer-BOSS1-ATAQUEMOV_1: 1920637240
+      pixil-layer-BOSS1-ATAQUEMOV_10: 1059050445
+      pixil-layer-BOSS1-ATAQUEMOV_11: -1850627945
+      pixil-layer-BOSS1-ATAQUEMOV_12: 26299617
+      pixil-layer-BOSS1-ATAQUEMOV_13: -1102285755
+      pixil-layer-BOSS1-ATAQUEMOV_14: 1865860833
+      pixil-layer-BOSS1-ATAQUEMOV_15: -1245707901
+      pixil-layer-BOSS1-ATAQUEMOV_16: 1462121432
+      pixil-layer-BOSS1-ATAQUEMOV_17: 229476266
+      pixil-layer-BOSS1-ATAQUEMOV_18: -799580588
+      pixil-layer-BOSS1-ATAQUEMOV_19: 115514187
+      pixil-layer-BOSS1-ATAQUEMOV_2: -26483964
+      pixil-layer-BOSS1-ATAQUEMOV_20: -819140105
+      pixil-layer-BOSS1-ATAQUEMOV_21: 842147450
+      pixil-layer-BOSS1-ATAQUEMOV_22: -20483262
+      pixil-layer-BOSS1-ATAQUEMOV_23: -190967252
+      pixil-layer-BOSS1-ATAQUEMOV_24: -445450804
+      pixil-layer-BOSS1-ATAQUEMOV_25: 201294690
+      pixil-layer-BOSS1-ATAQUEMOV_26: 160234603
+      pixil-layer-BOSS1-ATAQUEMOV_27: 1503208594
+      pixil-layer-BOSS1-ATAQUEMOV_28: -1744028670
+      pixil-layer-BOSS1-ATAQUEMOV_29: -1821558744
+      pixil-layer-BOSS1-ATAQUEMOV_3: -1946048238
+      pixil-layer-BOSS1-ATAQUEMOV_30: 1183002486
+      pixil-layer-BOSS1-ATAQUEMOV_31: 1389798494
+      pixil-layer-BOSS1-ATAQUEMOV_32: -360426614
+      pixil-layer-BOSS1-ATAQUEMOV_33: 113226642
+      pixil-layer-BOSS1-ATAQUEMOV_34: 1343066146
+      pixil-layer-BOSS1-ATAQUEMOV_35: -1463794800
+      pixil-layer-BOSS1-ATAQUEMOV_36: -259870938
+      pixil-layer-BOSS1-ATAQUEMOV_37: -1621205008
+      pixil-layer-BOSS1-ATAQUEMOV_38: -1787424766
+      pixil-layer-BOSS1-ATAQUEMOV_39: -85019428
+      pixil-layer-BOSS1-ATAQUEMOV_4: -325410925
+      pixil-layer-BOSS1-ATAQUEMOV_40: -1375122437
+      pixil-layer-BOSS1-ATAQUEMOV_41: -1365247078
+      pixil-layer-BOSS1-ATAQUEMOV_42: -205396274
+      pixil-layer-BOSS1-ATAQUEMOV_43: -69861826
+      pixil-layer-BOSS1-ATAQUEMOV_44: 1656232254
+      pixil-layer-BOSS1-ATAQUEMOV_45: 1557449348
+      pixil-layer-BOSS1-ATAQUEMOV_46: -600894116
+      pixil-layer-BOSS1-ATAQUEMOV_47: -1516791960
+      pixil-layer-BOSS1-ATAQUEMOV_48: 808902699
+      pixil-layer-BOSS1-ATAQUEMOV_49: -1955539676
+      pixil-layer-BOSS1-ATAQUEMOV_5: 1362277278
+      pixil-layer-BOSS1-ATAQUEMOV_50: -1107341781
+      pixil-layer-BOSS1-ATAQUEMOV_51: -1995455314
+      pixil-layer-BOSS1-ATAQUEMOV_52: -607273745
+      pixil-layer-BOSS1-ATAQUEMOV_53: -777747813
+      pixil-layer-BOSS1-ATAQUEMOV_54: -1649816344
+      pixil-layer-BOSS1-ATAQUEMOV_55: 149903551
+      pixil-layer-BOSS1-ATAQUEMOV_56: 1209976192
+      pixil-layer-BOSS1-ATAQUEMOV_57: -434839909
+      pixil-layer-BOSS1-ATAQUEMOV_58: 1149474114
+      pixil-layer-BOSS1-ATAQUEMOV_59: -731873852
+      pixil-layer-BOSS1-ATAQUEMOV_6: 1144872400
+      pixil-layer-BOSS1-ATAQUEMOV_60: 569812579
+      pixil-layer-BOSS1-ATAQUEMOV_61: 1518720107
+      pixil-layer-BOSS1-ATAQUEMOV_62: -1773167819
+      pixil-layer-BOSS1-ATAQUEMOV_63: -1081130724
+      pixil-layer-BOSS1-ATAQUEMOV_64: -485953382
+      pixil-layer-BOSS1-ATAQUEMOV_65: 305738820
+      pixil-layer-BOSS1-ATAQUEMOV_66: 1852470667
+      pixil-layer-BOSS1-ATAQUEMOV_67: 1107518517
+      pixil-layer-BOSS1-ATAQUEMOV_68: -270265478
+      pixil-layer-BOSS1-ATAQUEMOV_69: 1799294025
+      pixil-layer-BOSS1-ATAQUEMOV_7: -143919447
+      pixil-layer-BOSS1-ATAQUEMOV_70: -194973338
+      pixil-layer-BOSS1-ATAQUEMOV_8: -61434482
+      pixil-layer-BOSS1-ATAQUEMOV_9: 1878138001
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

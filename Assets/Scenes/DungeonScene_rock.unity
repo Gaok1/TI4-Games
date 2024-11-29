@@ -537,10 +537,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 807a6578cfd60f741a509775fd230402, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefabs:
-  - {fileID: 227180430676147513, guid: bfe0594eec055354ca43e1fd5baff902, type: 3}
-  minEnemiesPerRoom: 1
-  maxEnemiesPerRoom: 5
   room1Prefab: {fileID: 5994954086922193401, guid: ab64fb9bb3395934bb378468d191b41b,
     type: 3}
   room2Prefab: {fileID: 5994954086922193401, guid: 1264a215a9ed648458c412d99cc30561,
@@ -550,7 +546,7 @@ MonoBehaviour:
   bossRoomPrefab: {fileID: 5994954086922193401, guid: 018e467273d6fc84281b2179f7adfc00,
     type: 3}
   bossMusicClip: {fileID: 8300000, guid: 265091d43bd4ea14cb169cc24216aac7, type: 3}
-  playerPrefab: {fileID: 3974211980830810717, guid: bd49d3598e116e542861d0a772d0e0f8,
+  playerPrefab: {fileID: 3974211980830810717, guid: e3373928dd66f9d409336ab6d20e3df4,
     type: 3}
   playerSpawnOffset: {x: 0, y: -2, z: -6}
   numberOfRooms: 7

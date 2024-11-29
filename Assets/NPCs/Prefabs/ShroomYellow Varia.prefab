@@ -52,7 +52,7 @@ PrefabInstance:
     - target: {fileID: 227180430676147513, guid: bfe0594eec055354ca43e1fd5baff902,
         type: 3}
       propertyPath: m_Name
-      value: ShroomYellow Variant
+      value: ShroomYellow Varia
       objectReference: {fileID: 0}
     - target: {fileID: 227180430676147513, guid: bfe0594eec055354ca43e1fd5baff902,
         type: 3}
@@ -119,6 +119,12 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7785872595220124596, guid: bfe0594eec055354ca43e1fd5baff902,
+        type: 3}
+      propertyPath: itemPrefab
+      value: 
+      objectReference: {fileID: 8393350701954262314, guid: d66b60bd5ffbee84b9d237dda837689a,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

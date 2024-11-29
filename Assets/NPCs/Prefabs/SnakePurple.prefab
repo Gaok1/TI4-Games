@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -2753514786416632209}
   - component: {fileID: 7658711947551702672}
   - component: {fileID: 7785872595220124596}
+  - component: {fileID: 1824903327179980030}
   m_Layer: 24
   m_Name: SnakePurple
   m_TagString: Enemy
@@ -212,3 +213,16 @@ MonoBehaviour:
   maxHealth: 3
   itemPrefab: {fileID: 8393350701954262314, guid: 05870d35371ccfb4cb073cee9a76fc36,
     type: 3}
+--- !u!114 &1824903327179980030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227180430676147513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6e1ed71ed0dd246a1f8c37b37f7a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
