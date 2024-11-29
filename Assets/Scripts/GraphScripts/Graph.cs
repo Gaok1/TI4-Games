@@ -350,8 +350,6 @@ public class Graph
     }
 
 
-
-
     private int GetRotationForDoor(int roomIndex, DoorDirection requiredDoor)
     {
         List<DoorDirection> originalDoors = GetOriginalDoors(roomIndex);
@@ -391,7 +389,6 @@ public class Graph
         }
     }
 
-
     // Graph.cs (Dentro da classe Graph)
     public void ConnectDoors(int roomAIndex, DoorDirection doorA, int roomBIndex, DoorDirection doorB)
     {
@@ -417,9 +414,6 @@ public class Graph
             Debug.LogError($"Falha ao conectar as portas entre Sala {roomAIndex} e Sala {roomBIndex}");
         }
     }
-
-
-
 
     private DoorTrigger GetDoorTrigger(GameObject room, DoorDirection doorDirection)
     {
