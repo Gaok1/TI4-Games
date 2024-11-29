@@ -40035,9 +40035,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 33554432
   nodeRadius: 0.5
+  gridSizeX: 90
+  gridSizeY: 90
   gridOffset: {x: 0, y: 0, z: 0}
-  useCustomGridOrigin: 0
-  customGridOrigin: {x: 0, y: 0, z: 0}
+  useCustomGridOrigin: 1
+  customGridOrigin: {x: -40, y: -40, z: 0}
 --- !u!114 &1770028680473857648
 MonoBehaviour:
   m_ObjectHideFlags: 0
