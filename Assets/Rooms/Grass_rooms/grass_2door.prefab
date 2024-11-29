@@ -40034,8 +40034,10 @@ MonoBehaviour:
   unwalkableMask:
     serializedVersion: 2
     m_Bits: 33554432
-  gridWorldSize: {x: 100, y: 100}
   nodeRadius: 0.5
+  gridOffset: {x: 0, y: 0, z: 0}
+  useCustomGridOrigin: 0
+  customGridOrigin: {x: 0, y: 0, z: 0}
 --- !u!114 &1770028680473857648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49825,7 +49827,8 @@ PrefabInstance:
     - target: {fileID: 3391527044887930681, guid: 09485768ee27d354e97288696b880827,
         type: 3}
       propertyPath: m_text
-      value: Algo...
+      value: "Al\xE9m do cavaleirao algo mais sinistros est\xE1 dentro desse lugar,
+        tome cuidado ..."
       objectReference: {fileID: 0}
     - target: {fileID: 5812589778703448467, guid: 09485768ee27d354e97288696b880827,
         type: 3}

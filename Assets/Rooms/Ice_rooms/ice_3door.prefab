@@ -4124,8 +4124,10 @@ MonoBehaviour:
   unwalkableMask:
     serializedVersion: 2
     m_Bits: 33554432
-  gridWorldSize: {x: 100, y: 100}
   nodeRadius: 0.5
+  gridOffset: {x: 0, y: 0, z: 0}
+  useCustomGridOrigin: 0
+  customGridOrigin: {x: 0, y: 0, z: 0}
 --- !u!114 &4701849844606072486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53279,7 +53281,8 @@ PrefabInstance:
     - target: {fileID: 3391527044887930681, guid: 09485768ee27d354e97288696b880827,
         type: 3}
       propertyPath: m_text
-      value: Algo...
+      value: "Um ser que possu\xED corpos vaga nesse lugar, a beleza as vezes engana
+        ..."
       objectReference: {fileID: 0}
     - target: {fileID: 5812589778703448467, guid: 09485768ee27d354e97288696b880827,
         type: 3}
@@ -53289,7 +53292,7 @@ PrefabInstance:
     - target: {fileID: 5812589778703448467, guid: 09485768ee27d354e97288696b880827,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

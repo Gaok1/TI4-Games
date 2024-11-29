@@ -49431,7 +49431,7 @@ PrefabInstance:
     - target: {fileID: 3391527044887930681, guid: 09485768ee27d354e97288696b880827,
         type: 3}
       propertyPath: m_text
-      value: Algo...
+      value: "Porque escuto barulho de pedras rolando? N\xE3o deve ser nada ..."
       objectReference: {fileID: 0}
     - target: {fileID: 5812589778703448467, guid: 09485768ee27d354e97288696b880827,
         type: 3}
